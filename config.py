@@ -40,10 +40,10 @@ START_PIC = os.environ.get("START_PIC", "https://telegra.ph/file/ec17880d61180d3
 FORCE_PIC = os.environ.get("FORCE_PIC", "https://telegra.ph/file/e292b12890b8b4b9dcbd1.jpg")
 
 #--------------------------------------------
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "")
-VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 20)) # Add time in seconds
-TUT_VID = os.environ.get("TUT_VID","https://t.me/how_to_open_link_ak")
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "cuty.io")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "f351cc7a7bcfdfca8ebd5e084e30be2b1daa6d24")
+VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 21600)) # Add time in seconds
+TUT_VID = os.environ.get("TUT_VID","https://t.me/how_to_open_link_ak/14")
 
 #--------------------------------------------
 
@@ -96,7 +96,7 @@ SCREENSHOT_URL = os.environ.get("SCREENSHOT_URL", f"t.me/ak_ownerbot")
 #--------------------------------------------
 #Time and its price
 #7 Days
-PRICE1 = os.environ.get("PRICE1", "0 rs")
+PRICE1 = os.environ.get("PRICE1", "10 rs")
 #1 Month
 PRICE2 = os.environ.get("PRICE2", "35 rs")
 #3 Month
